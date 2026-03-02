@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Paul Blazey</key>
-	<string>https://www.parkrun.org.uk/parkrunner/146116/all</string>
+	<real>-63</real>
 	<key>Thomas Lane</key>
-	<string>https://www.parkrun.org.uk/parkrunner/516690/all/</string>
+	<real>174</real>
 	<key>Tibor Horvath</key>
-	<string>https://www.parkrun.ca/parkrunner/2714789/all/</string>
+	<real>36</real>
 </dict>
 </plist>
