@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01/01/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>01/01/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>01/02/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>01/02/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:53</string>
+	</dict>
+	<key>01/03/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>01/03/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:12</string>
+	</dict>
+	<key>01/04/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>01/04/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:45</string>
+	</dict>
+	<key>01/04/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>01/04/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:08</string>
+	</dict>
+	<key>01/06/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>01/06/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:44</string>
+	</dict>
+	<key>01/06/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>01/06/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:35</string>
+	</dict>
+	<key>01/07/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>01/07/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>01/10/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>01/10/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>01/11/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>01/11/2025</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>28:27</string>
+	</dict>
+	<key>01/12/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>01/12/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>27:11</string>
+	</dict>
+	<key>02/02/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>02/02/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:34</string>
+	</dict>
+	<key>02/03/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>02/03/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:59</string>
+	</dict>
+	<key>02/03/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>02/03/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:35</string>
+	</dict>
+	<key>02/04/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>02/04/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:14</string>
+	</dict>
+	<key>02/07/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>02/07/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>02/09/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>02/09/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:42</string>
+	</dict>
+	<key>02/09/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>02/09/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:58</string>
+	</dict>
+	<key>02/10/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>02/10/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:31</string>
+	</dict>
+	<key>02/11/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>02/11/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:59</string>
+	</dict>
+	<key>02/11/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>02/11/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:44</string>
+	</dict>
+	<key>02/12/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>02/12/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:22</string>
+	</dict>
+	<key>02/12/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>02/12/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:24</string>
+	</dict>
+	<key>03/02/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>03/02/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:32</string>
+	</dict>
+	<key>03/02/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>03/02/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:24</string>
+	</dict>
+	<key>03/05/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>03/05/2025</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:05</string>
+	</dict>
+	<key>03/06/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>03/06/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:54</string>
+	</dict>
+	<key>03/08/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>03/08/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>03/08/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>03/08/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>03/09/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>03/09/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>21:40</string>
+	</dict>
+	<key>04/01/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>04/01/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:27</string>
+	</dict>
+	<key>04/02/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>04/02/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>04/03/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>04/03/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>04/05/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>04/05/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:25</string>
+	</dict>
+	<key>04/06/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>04/06/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>04/09/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>04/09/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:51</string>
+	</dict>
+	<key>04/10/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>04/10/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:34</string>
+	</dict>
+	<key>04/12/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>04/12/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:16</string>
+	</dict>
+	<key>05/01/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>05/01/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:28</string>
+	</dict>
+	<key>05/02/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>05/02/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:59</string>
+	</dict>
+	<key>05/03/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>05/03/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>05/04/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>05/04/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:34</string>
+	</dict>
+	<key>05/07/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>05/07/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:17</string>
+	</dict>
+	<key>05/08/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>05/08/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:09</string>
+	</dict>
+	<key>05/10/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>05/10/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:22</string>
+	</dict>
+	<key>05/10/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>05/10/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:51</string>
+	</dict>
+	<key>05/11/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>05/11/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>23:45</string>
+	</dict>
+	<key>06/01/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>06/01/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:56</string>
+	</dict>
+	<key>06/01/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>06/01/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:43</string>
+	</dict>
+	<key>06/04/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>06/04/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:05</string>
+	</dict>
+	<key>06/04/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>06/04/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:31</string>
+	</dict>
+	<key>06/05/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>06/05/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:59</string>
+	</dict>
+	<key>06/07/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>06/07/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:08</string>
+	</dict>
+	<key>06/08/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>06/08/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:50</string>
+	</dict>
+	<key>06/09/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>06/09/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:14</string>
+	</dict>
+	<key>06/10/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>06/10/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:44</string>
+	</dict>
+	<key>06/11/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>06/11/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:36</string>
+	</dict>
+	<key>06/12/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>06/12/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:50</string>
+	</dict>
+	<key>07/01/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>07/01/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:39</string>
+	</dict>
+	<key>07/02/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>07/02/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:03</string>
+	</dict>
+	<key>07/03/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>07/03/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:03</string>
+	</dict>
+	<key>07/05/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>07/05/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:08</string>
+	</dict>
+	<key>07/06/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>07/06/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:23</string>
+	</dict>
+	<key>07/09/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>07/09/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>07/09/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>07/09/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:50</string>
+	</dict>
+	<key>07/10/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>07/10/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>27:06</string>
+	</dict>
+	<key>07/12/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>07/12/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:02</string>
+	</dict>
+	<key>07/12/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>07/12/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:02</string>
+	</dict>
+	<key>08/02/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>08/02/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>08/03/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>08/03/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:59</string>
+	</dict>
+	<key>08/04/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>08/04/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:15</string>
+	</dict>
+	<key>08/06/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>08/06/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>08/06/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>08/06/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:53</string>
+	</dict>
+	<key>08/07/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>08/07/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:58</string>
+	</dict>
+	<key>08/10/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>08/10/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:22</string>
+	</dict>
+	<key>08/11/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>08/11/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:20</string>
+	</dict>
+	<key>08/12/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>08/12/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:33</string>
+	</dict>
+	<key>09/03/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>09/03/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:08</string>
+	</dict>
+	<key>09/04/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>09/04/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:39</string>
+	</dict>
+	<key>09/07/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>09/07/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:22</string>
+	</dict>
+	<key>09/08/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>09/08/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>23:23</string>
+	</dict>
+	<key>09/09/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>09/09/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:48</string>
+	</dict>
+	<key>09/09/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>09/09/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:41</string>
+	</dict>
+	<key>09/10/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>09/10/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:44</string>
+	</dict>
+	<key>09/11/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>09/11/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:53</string>
+	</dict>
+	<key>09/11/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>09/11/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:34</string>
+	</dict>
+	<key>09/12/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>09/12/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:38</string>
+	</dict>
+	<key>10/01/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>10/01/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:09</string>
+	</dict>
+	<key>10/02/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>10/02/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:40</string>
+	</dict>
+	<key>10/06/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>10/06/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:49</string>
+	</dict>
+	<key>10/08/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>10/08/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:15</string>
+	</dict>
+	<key>10/08/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>10/08/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>10/09/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>10/09/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:43</string>
+	</dict>
+	<key>10/11/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>10/11/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:30</string>
+	</dict>
+	<key>10/12/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>10/12/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:56</string>
+	</dict>
+	<key>11/01/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>11/01/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:02</string>
+	</dict>
+	<key>11/05/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>11/05/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>25:53</string>
+	</dict>
+	<key>11/05/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>11/05/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:30</string>
+	</dict>
+	<key>11/09/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>11/09/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:36</string>
+	</dict>
+	<key>11/10/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>11/10/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:19</string>
+	</dict>
+	<key>11/11/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>11/11/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:31</string>
+	</dict>
+	<key>11/12/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>11/12/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:08</string>
+	</dict>
+	<key>12/04/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>12/04/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:43</string>
+	</dict>
+	<key>12/10/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>12/10/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:30</string>
+	</dict>
+	<key>12/10/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>12/10/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:00</string>
+	</dict>
+	<key>13/04/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>13/04/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:26</string>
+	</dict>
+	<key>13/05/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>13/05/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:52</string>
+	</dict>
+	<key>13/07/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>13/07/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>13/07/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>13/07/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:48</string>
+	</dict>
+	<key>13/09/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>13/09/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:55</string>
+	</dict>
+	<key>13/11/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>13/11/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:59</string>
+	</dict>
+	<key>14/01/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>14/01/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>14/05/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>14/05/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:02</string>
+	</dict>
+	<key>14/08/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>14/08/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:09</string>
+	</dict>
+	<key>14/09/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>14/09/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>14/12/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>14/12/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:25</string>
+	</dict>
+	<key>15/02/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>15/02/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:18</string>
+	</dict>
+	<key>15/03/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>15/03/2025</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:31</string>
+	</dict>
+	<key>15/04/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>15/04/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>25:06</string>
+	</dict>
+	<key>15/06/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>15/06/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:33</string>
+	</dict>
+	<key>15/10/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>15/10/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>15/11/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>15/11/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:50</string>
+	</dict>
+	<key>15/12/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>15/12/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>16/03/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>16/03/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>16/03/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>16/03/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:33</string>
+	</dict>
+	<key>16/04/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>16/04/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>16/08/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>16/08/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:19</string>
+	</dict>
+	<key>16/10/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>16/10/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:36</string>
+	</dict>
+	<key>16/11/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>16/11/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:26</string>
+	</dict>
+	<key>16/11/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>16/11/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:26</string>
+	</dict>
+	<key>16/12/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>16/12/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:17</string>
+	</dict>
+	<key>17/01/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>17/01/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:05</string>
+	</dict>
+	<key>17/02/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>17/02/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:39</string>
+	</dict>
+	<key>17/05/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>17/05/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:49</string>
+	</dict>
+	<key>17/06/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>17/06/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:24</string>
+	</dict>
+	<key>17/06/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>17/06/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>26:15</string>
+	</dict>
+	<key>17/08/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>17/08/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>17/09/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>17/09/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:23</string>
+	</dict>
+	<key>17/11/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>17/11/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:26</string>
+	</dict>
+	<key>18/02/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>18/02/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:01</string>
+	</dict>
+	<key>18/05/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>18/05/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:33</string>
+	</dict>
+	<key>18/06/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>18/06/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:01</string>
+	</dict>
+	<key>18/09/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>18/09/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:43</string>
+	</dict>
+	<key>18/10/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>18/10/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:34</string>
+	</dict>
+	<key>18/12/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>18/12/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>19/01/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>19/01/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>19/02/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>19/02/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>19/03/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>19/03/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:21</string>
+	</dict>
+	<key>19/07/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>19/07/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:48</string>
+	</dict>
+	<key>19/08/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>19/08/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:09</string>
+	</dict>
+	<key>19/11/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>19/11/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:11</string>
+	</dict>
+	<key>20/04/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>20/04/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:33</string>
+	</dict>
+	<key>20/04/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>20/04/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:45</string>
+	</dict>
+	<key>20/05/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>20/05/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:00</string>
+	</dict>
+	<key>20/07/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>20/07/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:32</string>
+	</dict>
+	<key>20/09/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>20/09/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:49</string>
+	</dict>
+	<key>20/10/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>20/10/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>26:06</string>
+	</dict>
+	<key>20/11/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>20/11/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:59</string>
+	</dict>
+	<key>21/01/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>21/01/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:22</string>
+	</dict>
+	<key>21/02/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>21/02/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:50</string>
+	</dict>
+	<key>21/05/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>21/05/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:09</string>
+	</dict>
+	<key>21/06/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>21/06/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:38</string>
+	</dict>
+	<key>21/08/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>21/08/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:18</string>
+	</dict>
+	<key>21/09/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>21/09/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:17</string>
+	</dict>
+	<key>21/09/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>21/09/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:09</string>
+	</dict>
+	<key>21/10/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>21/10/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:31</string>
+	</dict>
+	<key>21/10/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>21/10/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:50</string>
+	</dict>
+	<key>21/12/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>21/12/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:30</string>
+	</dict>
+	<key>21/12/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>21/12/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:44</string>
+	</dict>
+	<key>22/02/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>22/02/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:34</string>
+	</dict>
+	<key>22/02/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>22/02/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>24:06</string>
+	</dict>
+	<key>22/03/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>22/03/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:13</string>
+	</dict>
+	<key>22/04/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>22/04/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:58</string>
+	</dict>
+	<key>22/06/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>22/06/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:45</string>
+	</dict>
+	<key>22/06/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>22/06/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:19</string>
+	</dict>
+	<key>22/07/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>22/07/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:35</string>
+	</dict>
+	<key>22/07/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>22/07/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:13</string>
+	</dict>
+	<key>22/12/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>22/12/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>23/02/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>23/02/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:34</string>
+	</dict>
+	<key>23/03/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>23/03/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>23/04/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>23/04/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:49</string>
+	</dict>
+	<key>23/08/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>23/08/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:56</string>
+	</dict>
+	<key>23/09/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>23/09/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:24</string>
+	</dict>
+	<key>23/09/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>23/09/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:56</string>
+	</dict>
+	<key>23/11/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>23/11/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:32</string>
+	</dict>
+	<key>23/11/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>23/11/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:35</string>
+	</dict>
+	<key>23/12/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>23/12/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:13</string>
+	</dict>
+	<key>24/01/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>24/01/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:03</string>
+	</dict>
+	<key>24/02/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>24/02/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:25</string>
+	</dict>
+	<key>24/05/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>24/05/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:43</string>
+	</dict>
+	<key>24/06/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>24/06/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:46</string>
+	</dict>
+	<key>24/06/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>24/06/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:57</string>
+	</dict>
+	<key>24/08/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>24/08/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:46</string>
+	</dict>
+	<key>24/09/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>24/09/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>24/11/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>24/11/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:18</string>
+	</dict>
+	<key>25/01/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>25/01/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:18</string>
+	</dict>
+	<key>25/02/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>25/02/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:39</string>
+	</dict>
+	<key>25/06/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>25/06/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>25/09/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>25/09/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:43</string>
+	</dict>
+	<key>25/10/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>25/10/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:10</string>
+	</dict>
+	<key>25/11/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>25/11/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:26</string>
+	</dict>
+	<key>26/01/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>26/01/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:07</string>
+	</dict>
+	<key>26/02/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>26/02/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:10</string>
+	</dict>
+	<key>26/03/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>26/03/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:19</string>
+	</dict>
+	<key>26/08/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>26/08/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:55</string>
+	</dict>
+	<key>26/10/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>26/10/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>25:06</string>
+	</dict>
+	<key>26/10/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>26/10/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>22:01</string>
+	</dict>
+	<key>26/11/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>26/11/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:16</string>
+	</dict>
+	<key>27/01/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>27/01/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:41</string>
+	</dict>
+	<key>27/04/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>27/04/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:51</string>
+	</dict>
+	<key>27/04/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>27/04/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:22</string>
+	</dict>
+	<key>27/05/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>27/05/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>24:46</string>
+	</dict>
+	<key>27/07/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>27/07/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:27</string>
+	</dict>
+	<key>27/09/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>27/09/2025</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:43</string>
+	</dict>
+	<key>27/10/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>27/10/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>28/02/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>28/02/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:47</string>
+	</dict>
+	<key>28/05/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>28/05/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:01</string>
+	</dict>
+	<key>28/06/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>28/06/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:28</string>
+	</dict>
+	<key>28/08/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>28/08/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:46</string>
+	</dict>
+	<key>28/10/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>28/10/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:41</string>
+	</dict>
+	<key>28/12/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>28/12/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:24</string>
+	</dict>
+	<key>29/02/2020</key>
+	<dict>
+		<key>Date</key>
+		<string>29/02/2020</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:27</string>
+	</dict>
+	<key>29/04/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>29/04/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:05</string>
+	</dict>
+	<key>29/06/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>29/06/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:24</string>
+	</dict>
+	<key>29/09/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>29/09/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:20</string>
+	</dict>
+	<key>29/10/2016</key>
+	<dict>
+		<key>Date</key>
+		<string>29/10/2016</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:44</string>
+	</dict>
+	<key>29/10/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>29/10/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:27</string>
+	</dict>
+	<key>29/12/2018</key>
+	<dict>
+		<key>Date</key>
+		<string>29/12/2018</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:37</string>
+	</dict>
+	<key>30/03/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>30/03/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>20:01</string>
+	</dict>
+	<key>30/04/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>30/04/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:12</string>
+	</dict>
+	<key>30/07/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>30/07/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:45</string>
+	</dict>
+	<key>30/08/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>30/08/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>21:22</string>
+	</dict>
+	<key>30/09/2017</key>
+	<dict>
+		<key>Date</key>
+		<string>30/09/2017</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:34</string>
+	</dict>
+	<key>30/09/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>30/09/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>18:53</string>
+	</dict>
+	<key>30/10/2021</key>
+	<dict>
+		<key>Date</key>
+		<string>30/10/2021</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:31</string>
+	</dict>
+	<key>30/11/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>30/11/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:18</string>
+	</dict>
+	<key>30/11/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>30/11/2024</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:50</string>
+	</dict>
+	<key>30/12/2023</key>
+	<dict>
+		<key>Date</key>
+		<string>30/12/2023</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:17</string>
+	</dict>
+	<key>31/01/2026</key>
+	<dict>
+		<key>Date</key>
+		<string>31/01/2026</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>19:47</string>
+	</dict>
+	<key>31/05/2025</key>
+	<dict>
+		<key>Date</key>
+		<string>31/05/2025</string>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Result</key>
+		<string>20:25</string>
+	</dict>
+	<key>31/08/2019</key>
+	<dict>
+		<key>Date</key>
+		<string>31/08/2019</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:51</string>
+	</dict>
+	<key>31/08/2024</key>
+	<dict>
+		<key>Date</key>
+		<string>31/08/2024</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:40</string>
+	</dict>
+	<key>31/12/2016</key>
+	<dict>
+		<key>Date</key>
+		<string>31/12/2016</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:11</string>
+	</dict>
+	<key>31/12/2022</key>
+	<dict>
+		<key>Date</key>
+		<string>31/12/2022</string>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Result</key>
+		<string>19:26</string>
+	</dict>
+</dict>
+</plist>
