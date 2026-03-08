@@ -2,11 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Frank McFires</key>
+	<real>217</real>
+	<key>Liam Babbit</key>
+	<real>-29</real>
+	<key>Mantas Jarusevcius</key>
+	<real>-128</real>
 	<key>Paul Blazey</key>
-	<real>-63</real>
+	<real>-121</real>
+	<key>Ryusuke Kubo</key>
+	<real>45</real>
 	<key>Thomas Lane</key>
-	<real>174</real>
+	<real>-65</real>
 	<key>Tibor Horvath</key>
-	<real>36</real>
+	<real>19</real>
+	<key>Winstorm Guo</key>
+	<real>-2</real>
 </dict>
 </plist>
