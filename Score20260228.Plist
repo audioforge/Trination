@@ -20,7 +20,7 @@
 		<key>Name</key>
 		<string>Tibor Horvath</string>
 		<key>Rank</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>Score</key>
 		<real>1140.7142857142858</real>
 		<key>Time</key>
@@ -32,7 +32,7 @@
 		<key>Name</key>
 		<string>Thomas Lane</string>
 		<key>Rank</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>Score</key>
 		<real>1183.7142857142858</real>
 		<key>Time</key>
@@ -44,7 +44,7 @@
 		<key>Name</key>
 		<string>Frank McFires</string>
 		<key>Rank</key>
-		<integer>1</integer>
+		<integer>4</integer>
 		<key>Score</key>
 		<real>1590.7142857142858</real>
 		<key>Time</key>
