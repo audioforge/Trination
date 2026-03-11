@@ -13,7 +13,7 @@
 		<key>Last120d</key>
 		<integer>10</integer>
 		<key>Points</key>
-		<integer>2</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Liam Babbit</key>
 	<dict>
@@ -26,7 +26,7 @@
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
-		<integer>2</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Mantas Jarusevcius</key>
 	<dict>
@@ -39,7 +39,7 @@
 		<key>Last120d</key>
 		<integer>2</integer>
 		<key>Points</key>
-		<integer>1</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Paul Blazey</key>
 	<dict>
@@ -65,7 +65,7 @@
 		<key>Last120d</key>
 		<integer>13</integer>
 		<key>Points</key>
-		<integer>5</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Thomas Lane</key>
 	<dict>
@@ -78,7 +78,7 @@
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
-		<integer>2</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Tibor Horvath</key>
 	<dict>
@@ -104,7 +104,7 @@
 		<key>Last120d</key>
 		<integer>6</integer>
 		<key>Points</key>
-		<integer>1</integer>
+		<integer>0</integer>
 	</dict>
 </dict>
 </plist>
