@@ -5,6 +5,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>15.428571428571331</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Tibor Horvath</string>
 		<key>Rank</key>
@@ -17,6 +19,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>186.28571428571422</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Frank McFires</string>
 		<key>Rank</key>
