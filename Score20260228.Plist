@@ -5,6 +5,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>-103.71428571428578</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Paul Blazey</string>
 		<key>Rank</key>
@@ -17,6 +19,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>16.285714285714221</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Tibor Horvath</string>
 		<key>Rank</key>
@@ -29,6 +33,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>-55.714285714285779</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Thomas Lane</string>
 		<key>Rank</key>
@@ -41,6 +47,8 @@
 	<dict>
 		<key>Handicap</key>
 		<real>186.28571428571422</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Frank McFires</string>
 		<key>Rank</key>

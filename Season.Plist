@@ -9,11 +9,11 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>218.28571428571422</real>
+		<real>218.2857142857142</real>
 		<key>Last120d</key>
 		<integer>10</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Liam Babbit</key>
 	<dict>
@@ -26,7 +26,7 @@
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Mantas Jarusevcius</key>
 	<dict>
@@ -35,11 +35,11 @@
 		<key>Crowns</key>
 		<integer>2</integer>
 		<key>Handicap</key>
-		<real>-110.28571428571422</real>
+		<real>-110.2857142857142</real>
 		<key>Last120d</key>
 		<integer>2</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>Paul Blazey</key>
 	<dict>
@@ -48,7 +48,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-103.71428571428578</real>
+		<real>-103.7142857142858</real>
 		<key>Last120d</key>
 		<integer>3</integer>
 		<key>Points</key>
@@ -65,7 +65,7 @@
 		<key>Last120d</key>
 		<integer>13</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Thomas Lane</key>
 	<dict>
@@ -74,11 +74,11 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-55.714285714285779</real>
+		<real>-55.71428571428578</real>
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Tibor Horvath</key>
 	<dict>
@@ -100,11 +100,11 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-0.28571428571422075</real>
+		<real>-0.2857142857142208</real>
 		<key>Last120d</key>
 		<integer>6</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 </dict>
 </plist>
