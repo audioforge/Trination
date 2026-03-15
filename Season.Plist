@@ -15,6 +15,19 @@
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
+	<key>Humphrey Chau</key>
+	<dict>
+		<key>Caterpillars</key>
+		<integer>0</integer>
+		<key>Crowns</key>
+		<integer>0</integer>
+		<key>Handicap</key>
+		<real>-29.14285714285711</real>
+		<key>Last120d</key>
+		<integer>1</integer>
+		<key>Points</key>
+		<integer>0</integer>
+	</dict>
 	<key>Liam Babbit</key>
 	<dict>
 		<key>Caterpillars</key>

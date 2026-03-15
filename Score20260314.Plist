@@ -18,13 +18,27 @@
 	</dict>
 	<dict>
 		<key>Handicap</key>
+		<real>-29.14285714285711</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Humphrey Chau</string>
+		<key>Rank</key>
+		<integer>2</integer>
+		<key>Score</key>
+		<real>1182.1428571428571</real>
+		<key>Time</key>
+		<string>19:13</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
 		<real>218.28571428571422</real>
 		<key>Location</key>
 		<string>Spanish Banks</string>
 		<key>Name</key>
 		<string>Frank McFires</string>
 		<key>Rank</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>Score</key>
 		<real>1235.7142857142858</real>
 		<key>Time</key>
