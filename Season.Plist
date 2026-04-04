@@ -9,9 +9,9 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>220</real>
+		<real>251.42857142857133</real>
 		<key>Last120d</key>
-		<integer>10</integer>
+		<integer>9</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -74,7 +74,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>44.285714285714221</real>
+		<real>39.14285714285711</real>
 		<key>Last120d</key>
 		<integer>12</integer>
 		<key>Points</key>
@@ -115,7 +115,7 @@
 		<key>Handicap</key>
 		<real>-10.571428571428669</real>
 		<key>Last120d</key>
-		<integer>5</integer>
+		<integer>6</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
