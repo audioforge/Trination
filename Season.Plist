@@ -9,7 +9,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>251.42857142857133</real>
+		<real>251.4285714285713</real>
 		<key>Last120d</key>
 		<integer>11</integer>
 		<key>Points</key>
@@ -22,7 +22,7 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-15.714285714285779</real>
+		<real>-15.71428571428578</real>
 		<key>Last120d</key>
 		<integer>2</integer>
 		<key>Points</key>
@@ -48,7 +48,7 @@
 		<key>Crowns</key>
 		<integer>2</integer>
 		<key>Handicap</key>
-		<real>-112.28571428571422</real>
+		<real>-112.2857142857142</real>
 		<key>Last120d</key>
 		<integer>3</integer>
 		<key>Points</key>
@@ -61,7 +61,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-98.571428571428669</real>
+		<real>-98.57142857142867</real>
 		<key>Last120d</key>
 		<integer>4</integer>
 		<key>Points</key>
@@ -74,7 +74,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>34.285714285714221</real>
+		<real>34.28571428571422</real>
 		<key>Last120d</key>
 		<integer>12</integer>
 		<key>Points</key>
@@ -87,7 +87,7 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-55.714285714285779</real>
+		<real>-55.71428571428578</real>
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
@@ -100,11 +100,11 @@
 		<key>Crowns</key>
 		<integer>3</integer>
 		<key>Handicap</key>
-		<real>7.7142857142857792</real>
+		<real>7.714285714285779</real>
 		<key>Last120d</key>
 		<integer>12</integer>
 		<key>Points</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>Winstorm Guo</key>
 	<dict>
