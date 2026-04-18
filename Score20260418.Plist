@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Handicap</key>
+		<real>10.85714285714289</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Tibor Horvath</string>
+		<key>Rank</key>
+		<integer>1</integer>
+		<key>Score</key>
+		<real>1135.1428571428571</real>
+		<key>Time</key>
+		<string>19:36</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>38.285714285714221</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Ryusuke Kubo</string>
+		<key>Rank</key>
+		<integer>2</integer>
+		<key>Score</key>
+		<real>1137.7142857142858</real>
+		<key>Time</key>
+		<string>19:36</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>251.42857142857133</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Frank McFires</string>
+		<key>Rank</key>
+		<integer>3</integer>
+		<key>Score</key>
+		<real>1302.5714285714287</real>
+		<key>Time</key>
+		<string>26:24</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>-24.85714285714289</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Liam Babbit</string>
+		<key>Rank</key>
+		<integer>4</integer>
+		<key>Score</key>
+		<real>1542.8571428571429</real>
+		<key>Time</key>
+		<string>25:48</string>
+	</dict>
+</array>
+</plist>
