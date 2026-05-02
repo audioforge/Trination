@@ -11,7 +11,7 @@
 		<key>Handicap</key>
 		<real>234</real>
 		<key>Last120d</key>
-		<integer>12</integer>
+		<integer>13</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -22,7 +22,7 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-15.71428571428578</real>
+		<real>-15.714285714285779</real>
 		<key>Last120d</key>
 		<integer>2</integer>
 		<key>Points</key>
@@ -35,9 +35,9 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-24.85714285714289</real>
+		<real>91.428571428571331</real>
 		<key>Last120d</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -48,7 +48,7 @@
 		<key>Crowns</key>
 		<integer>2</integer>
 		<key>Handicap</key>
-		<real>-112.2857142857142</real>
+		<real>-112.28571428571422</real>
 		<key>Last120d</key>
 		<integer>2</integer>
 		<key>Points</key>
@@ -74,7 +74,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>30.57142857142867</real>
+		<real>30.571428571428669</real>
 		<key>Last120d</key>
 		<integer>12</integer>
 		<key>Points</key>
@@ -87,7 +87,7 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-55.71428571428578</real>
+		<real>-55.714285714285779</real>
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
@@ -100,9 +100,9 @@
 		<key>Crowns</key>
 		<integer>3</integer>
 		<key>Handicap</key>
-		<real>7.714285714285779</real>
+		<real>7.7142857142857792</real>
 		<key>Last120d</key>
-		<integer>12</integer>
+		<integer>13</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
@@ -113,9 +113,9 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-18</real>
+		<real>-20.285714285714221</real>
 		<key>Last120d</key>
-		<integer>6</integer>
+		<integer>4</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
