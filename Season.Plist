@@ -48,9 +48,9 @@
 		<key>Crowns</key>
 		<integer>2</integer>
 		<key>Handicap</key>
-		<real>-120</real>
+		<real>-112.2857142857142</real>
 		<key>Last120d</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -61,11 +61,11 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-107.1428571428571</real>
+		<real>-102</real>
 		<key>Last120d</key>
-		<integer>3</integer>
+		<integer>4</integer>
 		<key>Points</key>
-		<integer>1</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Ryusuke Kubo</key>
 	<dict>
@@ -76,7 +76,7 @@
 		<key>Handicap</key>
 		<real>30.57142857142867</real>
 		<key>Last120d</key>
-		<integer>13</integer>
+		<integer>14</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
@@ -102,7 +102,7 @@
 		<key>Handicap</key>
 		<real>7.714285714285779</real>
 		<key>Last120d</key>
-		<integer>13</integer>
+		<integer>12</integer>
 		<key>Points</key>
 		<integer>4</integer>
 	</dict>
