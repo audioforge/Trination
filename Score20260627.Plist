@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Handicap</key>
+		<real>29.428571428571331</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Ryusuke Kubo</string>
+		<key>Rank</key>
+		<integer>1</integer>
+		<key>Score</key>
+		<real>1140.5714285714287</real>
+		<key>Time</key>
+		<string>19:30</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>-23.714285714285779</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Winstorm Guo</string>
+		<key>Rank</key>
+		<integer>2</integer>
+		<key>Score</key>
+		<real>1148.7142857142858</real>
+		<key>Time</key>
+		<string>19:15</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>7.7142857142857792</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Tibor Horvath</string>
+		<key>Rank</key>
+		<integer>3</integer>
+		<key>Score</key>
+		<real>1154.2857142857142</real>
+		<key>Time</key>
+		<string>19:52</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>163.71428571428578</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Liam Babbit</string>
+		<key>Rank</key>
+		<integer>4</integer>
+		<key>Score</key>
+		<real>1219.2857142857142</real>
+		<key>Time</key>
+		<string>23:33</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>236.85714285714289</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Frank McFires</string>
+		<key>Rank</key>
+		<integer>5</integer>
+		<key>Score</key>
+		<real>1233.1428571428571</real>
+		<key>Time</key>
+		<string>25:00</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>18</real>
+		<key>Location</key>
+		<string>Spanish Banks</string>
+		<key>Name</key>
+		<string>Humphrey Chau</string>
+		<key>Rank</key>
+		<integer>6</integer>
+		<key>Score</key>
+		<real>1245</real>
+		<key>Time</key>
+		<string>21:33</string>
+	</dict>
+</array>
+</plist>
