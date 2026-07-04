@@ -11,7 +11,7 @@
 		<key>Handicap</key>
 		<real>236.8571428571429</real>
 		<key>Last120d</key>
-		<integer>14</integer>
+		<integer>13</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -76,9 +76,9 @@
 		<key>Handicap</key>
 		<real>27.71428571428578</real>
 		<key>Last120d</key>
-		<integer>16</integer>
+		<integer>17</integer>
 		<key>Points</key>
-		<integer>1</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Thomas Lane</key>
 	<dict>
@@ -100,7 +100,7 @@
 		<key>Crowns</key>
 		<integer>3</integer>
 		<key>Handicap</key>
-		<real>7.714285714285779</real>
+		<real>9.714285714285779</real>
 		<key>Last120d</key>
 		<integer>13</integer>
 		<key>Points</key>
@@ -115,7 +115,7 @@
 		<key>Handicap</key>
 		<real>-24.85714285714289</real>
 		<key>Last120d</key>
-		<integer>6</integer>
+		<integer>7</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
