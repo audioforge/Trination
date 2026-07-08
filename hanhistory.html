@@ -32,7 +32,7 @@
     <script>
         var queryString = location.search.substring(1);
         //console.log(queryString);
-        
+        var locDicts, calcDate;
         var dynamicTable = (function() {
             
             var _tableId, _table,
@@ -154,6 +154,88 @@
             d = Math.sqrt(d);
             return d;
         }
+        function convertDMY(dateStr) {
+          // Splits the string by the forward slash
+          const [day, month, year] = dateStr.split('/');
+          
+          // Combines them into the new MM/DD/YYYY format
+          return `${month}/${day}/${year}`;
+        }
+
+        function calcHandicap (date, interval) {
+            // go through all dates in locDicts and find first, second and third best within 120d
+            var dates = Object.keys(locDicts);
+            var first = 3000;
+            var second = 3000;
+            var third = 3000;
+            var len = dates.length;
+            for (let i = 0; i < len; i++) {
+                //const c = convertDMY(calcDate);
+                const d = convertDMY(dates[i]);
+                //console.log(c,d);
+                const age = getDaysBetweenDates (calcDate,d);
+                console.log(age, d);
+                if (age<interval&&calcDate!=dates[i]) {
+                    const dic = locDicts[dates[i]];
+                    const mmss = dic['Result'];
+                    //const mmss = "05:30";
+                    const [minutes, seconds] = mmss.split(':');
+                    const totalSeconds = (+minutes) * 60 + (+seconds);
+                    if (totalSeconds<first) {
+                        first = totalSeconds;
+                    }
+                    else if (totalSeconds<second) {
+                        second = totalSeconds;
+                    }
+                    else if (totalSeconds<third) {
+                        third=totalSeconds;
+                    }
+                }
+            }
+            console.log(first, second, third);
+            
+            var handicap = (((first + second + third) * 2 + 1140) / 7)-1140;
+            return handicap;
+        }
+        
+        function getDaysBetweenDates(dateStr1, dateStr2) {
+            // const days = getDaysBetweenDates("2026-07-01", "2026-07-07");
+            // 1. Create Date objects
+            const d1 = new Date(dateStr1);
+            const d2 = new Date(dateStr2);
+            
+            // 2. Normalize by setting the time to midnight (prevents issues with local timezones)
+            d1.setHours(0, 0, 0, 0);
+            d2.setHours(0, 0, 0, 0);
+            
+            // 3. Milliseconds in one day: 24 hr * 60 min * 60 sec * 1000 ms
+            const msPerDay = 24 * 60 * 60 * 1000;
+            
+            // 4. Calculate absolute difference in milliseconds and convert to days
+            const diffInMs = Math.abs(d2 - d1);
+            
+            // 5. Round to the nearest whole number
+            return Math.round(diffInMs / msPerDay);
+        }
+        
+        function getLastSaturday() {
+            // console.log(getLastSaturday().toDateString());
+            const today = new Date();
+            const dayOfWeek = today.getDay(); // Sunday is 0, Monday is 1, ..., Saturday is 6
+            
+            // Calculate how many days to subtract to reach the most recent Saturday
+            // If today is Sunday (0), we go back 1 day. If today is Saturday (6), we go back 7 days.
+            const daysToSubtract = dayOfWeek === 0 ? 1 : dayOfWeek + 1;
+            
+            // Create a new Date object representing last Saturday
+            const lastSaturday = new Date(today);
+            lastSaturday.setDate(today.getDate() - daysToSubtract);
+            
+            return lastSaturday;
+        }
+
+        
+        
         var dec = queryString;
         exampleFetch();
         
@@ -175,102 +257,37 @@
             //system = system.toUpperCase();
             //const response = await fetch('/data/'+system+'.Plist');
             var sysString;
-            try {
+            
               const response = await fetch('/data/'+system+'.Plist');
               sysString = await response.text();
               if (response.ok) {
                 console.log('Promise resolved and HTTP status is successful');
                 // ...do something with the response
                 document.getElementById("showresulthere").innerHTML = system + ' found';
-                
               } else {
                 console.error('Promise resolved but HTTP status failed');
                 //document.getElementById("showresulthere").innerHTML = system + ' not found';
-                document.getElementById("showresulthere").innerHTML = 'Adjusting system name ...';
-              
-              const response2 = await fetch('/data/' + system +' A.Plist');
-              sysString = await response2.text();
-              
-              if (response2.ok) {
-                console.log('Promise resolved and HTTP status is successful');
-                // ...do something with the response
-                document.getElementById("showresulthere").innerHTML = system + ' found';
-                
-              } else {
-                console.error('Promise resolved but HTTP status failed');
-                document.getElementById("showresulthere").innerHTML = system + ' not found';
+                document.getElementById("showresulthere").innerHTML = 'Name not found';
               }
-
-              }
-            } catch {
-              console.error('Promise rejected');
-              document.getElementById("showresulthere").innerHTML = 'Adjusting system name ...';
-              
-              const response2 = await fetch('/data/' + system +' A.Plist');
-              sysString = await response2.text();
-              
-              if (response2.ok) {
-                console.log('Promise resolved and HTTP status is successful');
-                // ...do something with the response
-                document.getElementById("showresulthere").innerHTML = system + ' found';
-                
-              } else {
-                console.error('Promise resolved but HTTP status failed');
-                document.getElementById("showresulthere").innerHTML = system + ' not found';
-              }
-              
-            }
+            
             
             //const sysString = await response.text();
             
-            const locDicts = PlistParser.parse(sysString);
-            const sourceZ = locDicts['Z'];
-            var targetArray = sourceZ['ExpTarget'];
-            if (!targetArray) {
-               document.getElementById("showresulthere").innerHTML = 'Data missing'; 
-               dt.clear();
-            }
-            console.log(locDicts);
+            locDicts = PlistParser.parse(sysString);
+            
+            //console.log(locDicts);
             
             var dataAr = [];
-            var len = targetArray.length
-            
-            for (let i = 0; i < len; i++) {
+            //var len = locDicts.length
+            const startDate = getLastSaturday().toDateString();
+            console.log(startDate);
+            calcDate = startDate;
+            for (let i = 0; i < 1; i++) {
                 var data = {};
-                // get target system
-                  var fetchStr = '/data/'+targetArray[i]+'.Plist';
-                  console.log(fetchStr);
-                  const response = await fetch(fetchStr);
-                  const sysString = await response.text();
-                  const targetDicts = PlistParser.parse(sysString);
-                  var z = targetDicts['Z'];
-                  var updated = z['updated'];
-                  var factionInfo = targetDicts[updated];
-                  var sysFact = z['SysFaction'];
+                var handi = calcHandicap(startDate, 90);
+                console.log (handi);
+                  //var z = targetDicts['Z'];
                   
-                  var systemName = targetArray[i];
-                  if(systemName.includes(" A")){
-                      systemName = systemName.substring(0, systemName.length-2);
-                  }
-                  if(systemName.includes(" B")){
-                      systemName = systemName.substring(0, systemName.length-2);
-                  }
-                data.system = '<a href="sysinfo987.html?' + systemName + '">' + systemName + '</a>';
-                var count = 0;
-                var smallest = 1;
-                var lowestFac = '';
-                for (const [key, value] of Object.entries(factionInfo)) {
-                //factionInfo.forEach((value, key) => {
-                        // get lowest inf
-                        if(!key.includes(systemName)) {
-                              var inf = value['Influence'];
-                              if (inf < smallest) {
-                                  smallest = inf;
-                                  lowestFac = key;
-                              }
-                        }
-                        count++;
-                }                
                 data['count'] = count;
                 
                 
