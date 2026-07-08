@@ -281,26 +281,23 @@
             //var len = locDicts.length
             const startDate = getLastSaturday().toDateString();
             console.log(startDate);
-            calcDate = startDate;
-            for (let i = 0; i < 1; i++) {
+            calcDate = new Date(startDate);
+            for (let i = 0; i < 52; i++) {
                 var data = {};
-                var handi = calcHandicap(startDate, 90);
+                var handi = calcHandicap(calcDate, 90);
                 console.log (handi);
-                  //var z = targetDicts['Z'];
-                  
-                data['count'] = count;
+                //const formattedDate = today.toLocaleDateString('en-GB');
+                data['week'] = calcDate.toLocaleDateString('en-GB');
+                data['90d'] = handi.toFixed(1);
+                handi = calcHandicap(calcDate, 120);
+                data['120d'] = handi.toFixed(1);
                 
-                
-                
-                var popu = z['population'];
-                data['population'] = popu;
-                data['updated'] = updated;
-                var sysFacDicts = factionInfo[sysFact];
-                console.log (sysFacDicts);
-                var inf = (sysFacDicts['Influence']*100).toFixed(1);
-                smallest = (smallest*100).toFixed(1);
-                data.main = sysFact + ': ' + inf; // + ' (' + lowestFac + ': ' + smallest + ')';
-                data.lowest = smallest + ' (' + lowestFac + ')';
+                // get previous saturday
+                var prevSat = new Date(calcDate);
+                console.log(prevSat,calcDate);
+                prevSat.setDate(prevSat.getDate() - 7);
+                calcDate = prevSat;
+                console.log(calcDate);
                 dataAr.push(data);
                 document.getElementById("showresulthere").innerHTML = i + ' found';
             }
