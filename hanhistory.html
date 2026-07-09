@@ -33,6 +33,7 @@
         var queryString = location.search.substring(1);
         //console.log(queryString);
         var locDicts, calcDate;
+        var pb = 500;
         var dynamicTable = (function() {
             
             var _tableId, _table,
@@ -169,29 +170,59 @@
             var second = 3000;
             var third = 3000;
             var len = dates.length;
+            var count = 0;
             for (let i = 0; i < len; i++) {
                 //const c = convertDMY(calcDate);
                 const d = convertDMY(dates[i]);
                 //console.log(c,d);
                 const age = getDaysBetweenDates (calcDate,d);
-                console.log(age, d);
+                
+                const dic = locDicts[dates[i]];
+                const mmss = dic['Result'];
+                var venue = dic['Location'];
+                if (venue === 'Richmond Olympic' || venue === 'Spanish Banks') {
+                    //console.log (venue + ' is a valid event');
+                }
+                else {
+                    age = 1000;
+                }
+                
                 if (age<interval&&calcDate!=dates[i]) {
-                    const dic = locDicts[dates[i]];
-                    const mmss = dic['Result'];
+                    console.log(age, d, mmss, venue);
+                    
+                    
                     //const mmss = "05:30";
                     const [minutes, seconds] = mmss.split(':');
-                    const totalSeconds = (+minutes) * 60 + (+seconds);
+                    var totalSeconds = (+minutes) * 60 + (+seconds);
+                    if (venue = 'Spanish Banks') {
+                        totalSeconds=totalSeconds-30;
+                    }
                     if (totalSeconds<first) {
+                        third = second;
+                        second = first;
                         first = totalSeconds;
                     }
                     else if (totalSeconds<second) {
+                        third = second;
                         second = totalSeconds;
                     }
                     else if (totalSeconds<third) {
                         third=totalSeconds;
                     }
+                    count++;
                 }
             }
+            console.log (count);
+            if (count<6) {
+                third = pb;
+            }
+            if (count<4) {
+                second = pb;
+            }
+            if (count<2) {
+                first = pb;
+            }
+            
             console.log(first, second, third);
             
             var handicap = (((first + second + third) * 2 + 1140) / 7)-1140;
