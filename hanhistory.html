@@ -33,7 +33,7 @@
         var queryString = location.search.substring(1);
         //console.log(queryString);
         var locDicts, calcDate;
-        var pb = 500;
+        var pb;
         var dynamicTable = (function() {
             
             var _tableId, _table,
@@ -162,7 +162,26 @@
           // Combines them into the new MM/DD/YYYY format
           return `${month}/${day}/${year}`;
         }
-
+        function calcPB () {
+            var dates = Object.keys(locDicts);
+            var len = dates.length;
+            var pbCalced = 3000;
+            for (let i = 0; i < len; i++) {
+                const dic = locDicts[dates[i]];
+                const mmss = dic['Result'];
+                var venue = dic['Location'];
+                const [minutes, seconds] = mmss.split(':');
+                var totalSeconds = (+minutes) * 60 + (+seconds);
+                if (venue === 'Spanish Banks') {
+                    totalSeconds=totalSeconds-30;
+                }
+                if (totalSeconds<pbCalced) {
+                    pbCalced = totalSeconds;
+                }
+            }
+            return pbCalced;        
+        }
+        
         function calcHandicap (date, interval) {
             // go through all dates in locDicts and find first, second and third best within 120d
             var dates = Object.keys(locDicts);
@@ -188,15 +207,16 @@
                 }
                 
                 if (age<interval&&calcDate!=dates[i]) {
-                    console.log(age, d, mmss, venue);
-                    
+                                        
                     
                     //const mmss = "05:30";
                     const [minutes, seconds] = mmss.split(':');
                     var totalSeconds = (+minutes) * 60 + (+seconds);
-                    if (venue = 'Spanish Banks') {
+                    if (venue === 'Spanish Banks') {
                         totalSeconds=totalSeconds-30;
                     }
+                    console.log(age, d, mmss, venue, totalSeconds);
+
                     if (totalSeconds<first) {
                         third = second;
                         second = first;
@@ -225,7 +245,7 @@
             
             console.log(first, second, third);
             
-            var handicap = (((first + second + third) * 2 + 1140) / 7)-1140;
+            var handicap = (((first + second + third) * 2 + 1140) / 7) - 1140;
             return handicap;
         }
         
@@ -310,8 +330,9 @@
             
             var dataAr = [];
             //var len = locDicts.length
+            pb = calcPB();
             const startDate = getLastSaturday().toDateString();
-            console.log(startDate);
+            console.log(startDate, pb);
             calcDate = new Date(startDate);
             for (let i = 0; i < 52; i++) {
                 var data = {};
