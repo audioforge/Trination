@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Handicap</key>
+		<real>249.71428571428578</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Frank McFires</string>
+		<key>Rank</key>
+		<integer>1</integer>
+		<key>Score</key>
+		<real>1118.2857142857142</real>
+		<key>Time</key>
+		<string>22:48</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>-82.85714285714289</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Mantas Jarusevcius</string>
+		<key>Rank</key>
+		<integer>2</integer>
+		<key>Score</key>
+		<real>1126.8571428571429</real>
+		<key>Time</key>
+		<string>17:24</string>
+	</dict>
+	<dict>
+		<key>Handicap</key>
+		<real>-100.85714285714289</real>
+		<key>Location</key>
+		<string>Richmond Olympic</string>
+		<key>Name</key>
+		<string>Paul Blazey</string>
+		<key>Rank</key>
+		<integer>3</integer>
+		<key>Score</key>
+		<real>1132.8571428571429</real>
+		<key>Time</key>
+		<string>17:12</string>
+	</dict>
+</array>
+</plist>
