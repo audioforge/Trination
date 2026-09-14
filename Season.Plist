@@ -9,7 +9,7 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>258</real>
+		<real>229.14285714285711</real>
 		<key>Last120d</key>
 		<integer>13</integer>
 		<key>Points</key>
@@ -35,9 +35,9 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>143.4285714285713</real>
+		<real>147.14285714285711</real>
 		<key>Last120d</key>
-		<integer>5</integer>
+		<integer>4</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -48,9 +48,9 @@
 		<key>Crowns</key>
 		<integer>2</integer>
 		<key>Handicap</key>
-		<real>-82.85714285714289</real>
+		<real>-91.14285714285711</real>
 		<key>Last120d</key>
-		<integer>4</integer>
+		<integer>5</integer>
 		<key>Points</key>
 		<integer>0</integer>
 	</dict>
@@ -61,9 +61,9 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-100.8571428571429</real>
+		<real>-104.57142857142867</real>
 		<key>Last120d</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
@@ -76,7 +76,7 @@
 		<key>Handicap</key>
 		<real>26.85714285714289</real>
 		<key>Last120d</key>
-		<integer>18</integer>
+		<integer>17</integer>
 		<key>Points</key>
 		<integer>6</integer>
 	</dict>
@@ -87,7 +87,7 @@
 		<key>Crowns</key>
 		<integer>0</integer>
 		<key>Handicap</key>
-		<real>-55.71428571428578</real>
+		<real>-55.714285714285779</real>
 		<key>Last120d</key>
 		<integer>1</integer>
 		<key>Points</key>
@@ -100,9 +100,9 @@
 		<key>Crowns</key>
 		<integer>3</integer>
 		<key>Handicap</key>
-		<real>15.14285714285711</real>
+		<real>17.14285714285711</real>
 		<key>Last120d</key>
-		<integer>12</integer>
+		<integer>10</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
@@ -113,9 +113,9 @@
 		<key>Crowns</key>
 		<integer>1</integer>
 		<key>Handicap</key>
-		<real>-19.14285714285711</real>
+		<real>-14.85714285714289</real>
 		<key>Last120d</key>
-		<integer>9</integer>
+		<integer>8</integer>
 		<key>Points</key>
 		<integer>1</integer>
 	</dict>
