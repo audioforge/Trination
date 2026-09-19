@@ -50,6 +50,51 @@ img.emoji {
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.25.1'></script>
+<script type='text/javascript' src='https://www.parkrun.caempty.js?ver=4.9.28'></script>
+<script type='text/javascript'>
+(function(cfg){
+            // 9da0a2ee
+            document.addEventListener("DOMContentLoaded", function() {
+                var item = document.getElementById("wp-admin-bar-parkrun-flip-status");
+                if (item) {
+                    item.querySelector(":scope > a").addEventListener("click", function(e) {
+                        e.preventDefault();
+                        fetch(cfg.ajaxurl, {
+                            method: "POST",
+                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                            body: "action=parkrun_flip_test&_ajax_nonce=" + cfg.nonce
+                        }).then(function(r){ return r.json(); }).then(function(d){
+                            if (d.success) {
+                                var a = item.querySelector(":scope > a");
+                                // a.querySelector(".parkrun-toggle-label").textContent = "TEST=" + d.data.mode.toUpperCase();
+                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.mode === "active");
+                                window.location.reload();
+                            }
+                        });
+                    });
+                }
+
+                var apiItem = document.getElementById("wp-admin-bar-parkrun-backend-src");
+                if (apiItem) {
+                    apiItem.querySelector("a").addEventListener("click", function(e) {
+                        e.preventDefault();
+                        fetch(cfg.ajaxurl, {
+                            method: "POST",
+                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                            body: "action=parkrun_flip_backend_src&_ajax_nonce=" + cfg.apiNonce
+                        }).then(function(r){ return r.json(); }).then(function(d){
+                            if (d.success) {
+                                var a = apiItem.querySelector("a");
+                                // a.querySelector(".parkrun-toggle-label").textContent = "API=" + d.data.source.toUpperCase();
+                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.source === "staging");
+                                window.location.reload();
+                            }
+                        });
+                    });
+                }
+            });
+        })({"ajaxurl":"https:\/\/www.parkrun.ca\/wp-admin\/admin-ajax.php","nonce":"e3b2a41dc4","apiNonce":"f0bd4f7a04"});
+</script>
 <link rel='https://api.w.org/' href='https://www.parkrun.ca/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.parkrun.ca/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://static.parkrun.com/wp-includes/wlwmanifest.xml" /> 
@@ -129,18 +174,20 @@ img.emoji {
 					Member of the 100 Club
 			</a>
             <h3>
-                        212 parkruns total
+                        213 parkruns total
                     </h3><p><a href="/parkrunner/2923785">
                             View summary stats for this parkrunner
                         </a><br/>
                         Most recent age category was VM40-44
                     </p><div><table id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                                 Summary Stats for All  Locations
-                            </caption><thead><tr><th/><th>Fastest</th><th>Average <br />(mean)</th><th>Slowest</th></tr></thead><tbody><tr><td>Time</td><td>18:13</td><td>21:07</td><td>01:11:38</td></tr><tr><td>Age Grading</td><td>72.37%</td><td>64.71%</td><td>19.19%</td></tr><tr><td>Overall Position</td><td>1</td><td>6.77</td><td>113</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
+                            </caption><thead><tr><th/><th>Fastest</th><th>Average <br />(mean)</th><th>Slowest</th></tr></thead><tbody><tr><td>Time</td><td>18:13</td><td>21:07</td><td>01:11:38</td></tr><tr><td>Age Grading</td><td>72.37%</td><td>64.72%</td><td>19.19%</td></tr><tr><td>Overall Position</td><td>1</td><td>6.74</td><td>113</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                                 Best  Overall Annual Achievements
                             </caption><thead><tr><th>Year</th><th>Best Time</th><th>Best Age Grading</th></tr></thead><tbody><tr><td>2016</td><td>00:19:12</td><td>67.71%</td></tr><tr><td>2017</td><td>00:18:29</td><td>70.60%</td></tr><tr><td>2018</td><td>00:18:26</td><td>71.16%</td></tr><tr><td>2019</td><td>00:18:13</td><td>72.37%</td></tr><tr><td>2021</td><td>00:19:42</td><td>67.77%</td></tr><tr><td>2022</td><td>00:18:43</td><td>71.33%</td></tr><tr><td>2023</td><td>00:19:43</td><td>68.72%</td></tr><tr><td>2024</td><td>00:19:28</td><td>70.12%</td></tr><tr><td>2025</td><td>00:19:12</td><td>71.09%</td></tr><tr><td>2026</td><td>00:19:13</td><td>72.07%</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                             All  Results
-                        </caption><thead><tr><th>Event</th><th>Run Date</th><th>Run Number</th><th>Pos</th><th>Time</th><th>Age<br/>Grade</th><th>PB?</th></tr></thead><tbody><tr><td><a href="https://www.parkrun.ca/centralburnaby/results/">Central Burnaby</a></td><td><a href="https://www.parkrun.ca/centralburnaby/results/257/"><span class="format-date">12/09/2026</span></a></td><td><a href="https://www.parkrun.ca/centralburnaby/results/257/">257</a></td><td>3</td><td>19:35</td><td>70.72%</td><td>
+                        </caption><thead><tr><th>Event</th><th>Run Date</th><th>Run Number</th><th>Pos</th><th>Time</th><th>Age<br/>Grade</th><th>PB?</th></tr></thead><tbody><tr><td><a href="https://www.parkrun.ca/tyneheadregional/results/">Tynehead Regional</a></td><td><a href="https://www.parkrun.ca/tyneheadregional/results/122/"><span class="format-date">19/09/2026</span></a></td><td><a href="https://www.parkrun.ca/tyneheadregional/results/122/">122</a></td><td>1</td><td>20:24</td><td>67.89%</td><td>
+                                     
+                                    </td></tr><tr><td><a href="https://www.parkrun.ca/centralburnaby/results/">Central Burnaby</a></td><td><a href="https://www.parkrun.ca/centralburnaby/results/257/"><span class="format-date">12/09/2026</span></a></td><td><a href="https://www.parkrun.ca/centralburnaby/results/257/">257</a></td><td>3</td><td>19:35</td><td>70.72%</td><td>
                                      
                                     </td></tr><tr><td><a href="https://www.parkrun.ca/tyneheadregional/results/">Tynehead Regional</a></td><td><a href="https://www.parkrun.ca/tyneheadregional/results/120/"><span class="format-date">05/09/2026</span></a></td><td><a href="https://www.parkrun.ca/tyneheadregional/results/120/">120</a></td><td>2</td><td>19:51</td><td>69.77%</td><td>
                                      
@@ -644,11 +691,11 @@ img.emoji {
                     Average finish time: <span class="num">00:33:06</span>
                 </div>
                 <div class="aStat">
-                    Groups: <span class="num">2,708</span>
+                    Groups: <span class="num">2,709</span>
                 </div>
             </div>                      
             <div class="lastupdated">
-                Stats last updated: Mon 14 Sep 2026 12:36:07 AM UTC
+                Stats last updated: Sat 19 Sep 2026 08:36:21 AM UTC
             </div>
         </div>
     </div>
@@ -745,7 +792,7 @@ window.zESettings={webWidget:{color:{theme:"#ffa300"}}};
 </body>
 </html>
 
-<!-- Dynamic page generated in 0.649 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-09-14 15:50:48 -->
+<!-- Dynamic page generated in 0.669 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-09-19 19:48:50 -->
 
 <!-- super cache -->

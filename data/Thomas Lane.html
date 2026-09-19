@@ -50,6 +50,51 @@ img.emoji {
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.25.1'></script>
+<script type='text/javascript' src='https://www.parkrun.org.ukempty.js?ver=4.9.28'></script>
+<script type='text/javascript'>
+(function(cfg){
+            // 9da0a2ee
+            document.addEventListener("DOMContentLoaded", function() {
+                var item = document.getElementById("wp-admin-bar-parkrun-flip-status");
+                if (item) {
+                    item.querySelector(":scope > a").addEventListener("click", function(e) {
+                        e.preventDefault();
+                        fetch(cfg.ajaxurl, {
+                            method: "POST",
+                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                            body: "action=parkrun_flip_test&_ajax_nonce=" + cfg.nonce
+                        }).then(function(r){ return r.json(); }).then(function(d){
+                            if (d.success) {
+                                var a = item.querySelector(":scope > a");
+                                // a.querySelector(".parkrun-toggle-label").textContent = "TEST=" + d.data.mode.toUpperCase();
+                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.mode === "active");
+                                window.location.reload();
+                            }
+                        });
+                    });
+                }
+
+                var apiItem = document.getElementById("wp-admin-bar-parkrun-backend-src");
+                if (apiItem) {
+                    apiItem.querySelector("a").addEventListener("click", function(e) {
+                        e.preventDefault();
+                        fetch(cfg.ajaxurl, {
+                            method: "POST",
+                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                            body: "action=parkrun_flip_backend_src&_ajax_nonce=" + cfg.apiNonce
+                        }).then(function(r){ return r.json(); }).then(function(d){
+                            if (d.success) {
+                                var a = apiItem.querySelector("a");
+                                // a.querySelector(".parkrun-toggle-label").textContent = "API=" + d.data.source.toUpperCase();
+                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.source === "staging");
+                                window.location.reload();
+                            }
+                        });
+                    });
+                }
+            });
+        })({"ajaxurl":"https:\/\/www.parkrun.org.uk\/wp-admin\/admin-ajax.php","nonce":"e3b2a41dc4","apiNonce":"f0bd4f7a04"});
+</script>
 <link rel='https://api.w.org/' href='https://www.parkrun.org.uk/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.parkrun.org.uk/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://static.parkrun.com/wp-includes/wlwmanifest.xml" /> 
@@ -583,29 +628,29 @@ img.emoji {
                     Locations: <span class="num">930</span>
                 </div>
                 <div class="aStat">
-                    Finishers: <span class="num">4,268,392</span>
+                    Finishers: <span class="num">4,268,420</span>
                 </div>
                 <div class="aStat">
-                    Finishes: <span class="num">79,110,398</span>
+                    Finishes: <span class="num">79,110,726</span>
                 </div>
                 <div class="aStat">
-                    All-time events: <span class="num">372,860</span>
+                    All-time events: <span class="num">372,871</span>
                 </div>
                 <div class="aStat">
-                    Volunteers: <span class="num">554,620</span>
+                    Volunteers: <span class="num">554,635</span>
                 </div>
                 <div class="aStat">
-                    PBs: <span class="num">11,260,417</span>
+                    PBs: <span class="num">11,260,477</span>
                 </div>
                 <div class="aStat">
                     Average finish time: <span class="num">00:29:42</span>
                 </div>
                 <div class="aStat">
-                    Groups: <span class="num">9,764</span>
+                    Groups: <span class="num">9,771</span>
                 </div>
             </div>                      
             <div class="lastupdated">
-                Stats last updated: Mon 14 Sep 2026 00:59:37 UTC
+                Stats last updated: Sat 19 Sep 2026 09:01:34 UTC
             </div>
         </div>
     </div>
@@ -712,7 +757,7 @@ window.zESettings={webWidget:{color:{theme:"#ffa300"}}};
 </body>
 </html>
 
-<!-- Dynamic page generated in 0.648 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-09-14 16:50:04 -->
+<!-- Dynamic page generated in 0.565 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-09-19 20:48:03 -->
 
 <!-- super cache -->
