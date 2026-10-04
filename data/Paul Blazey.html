@@ -41,27 +41,28 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='style-css'  href='https://static.parkrun.com/wp-content/themes/parkrun/style.css?ver=1.25.1' type='text/css' media='all' />
-<link rel='stylesheet' id='swiper-css'  href='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?ver=1.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://static.parkrun.com/wp-content/themes/parkrun/style.css?ver=1.28.0' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css'  href='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?ver=1.28.0' type='text/css' media='all' />
 <link rel='stylesheet' id='iframemanager-css'  href='https://static.parkrun.com/wp-content/plugins/parkrun-cookies/dist/iframemanager.css?ver=1.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='cc-custom-style-css'  href='https://static.parkrun.com/wp-content/plugins/parkrun-cookies/psc.css?ver=1.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='twentyeleven-block-style-css'  href='https://static.parkrun.com/wp-content/themes/twentyeleven/blocks.css?ver=20240703' type='text/css' media='all' />
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.25.1'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.28.0'></script>
 <script type='text/javascript' src='https://www.parkrun.org.ukempty.js?ver=4.9.33'></script>
 <script type='text/javascript'>
 (function(cfg){
             // 9da0a2ee
             document.addEventListener("DOMContentLoaded", function() {
-                var item = document.getElementById("wp-admin-bar-parkrun-flip-status");
-                if (item) {
+                var items = document.getElementsByClassName("parkrun-flip-status");
+                Array.prototype.forEach.call(items, function(item) {
+                    var f = item.querySelector(":scope > span").getAttribute("data-id");
                     item.querySelector(":scope > a").addEventListener("click", function(e) {
                         e.preventDefault();
                         fetch(cfg.ajaxurl, {
                             method: "POST",
                             headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_flip_test&_ajax_nonce=" + cfg.nonce
+                            body: "action=parkrun_flip_test&feat=" + f + "&_ajax_nonce=" + cfg.nonce
                         }).then(function(r){ return r.json(); }).then(function(d){
                             if (d.success) {
                                 var a = item.querySelector(":scope > a");
@@ -71,7 +72,7 @@ img.emoji {
                             }
                         });
                     });
-                }
+                });
 
                 var apiItem = document.getElementById("wp-admin-bar-parkrun-backend-src");
                 if (apiItem) {
@@ -91,8 +92,31 @@ img.emoji {
                         });
                     });
                 }
+
+                var clearBtn = document.getElementById("parkrun-clear-t9n");
+                if (clearBtn) {
+                    clearBtn.addEventListener("click", function() {
+                        var phrase = document.getElementById("parkrun-t9n-phrase").value;
+                        var language = document.getElementById("parkrun-t9n-language").value;
+                        var result = document.getElementById("parkrun-clear-t9n-result");
+                        result.textContent = "Clearing…";
+                        fetch(cfg.ajaxurl, {
+                            method: "POST",
+                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                            body: "action=parkrun_clear_t9n&phrase=" + encodeURIComponent(phrase) +
+                                "&language=" + encodeURIComponent(language) +
+                                "&_ajax_nonce=" + cfg.t9nNonce
+                        }).then(function(r){ return r.json(); }).then(function(d){
+                            if (d.success) {
+                                result.textContent = "Deleted " + d.data.deleted + " key(s) matching " + d.data.pattern;
+                            } else {
+                                result.textContent = "Error: " + (d.data || "failed to clear translations");
+                            }
+                        });
+                    });
+                }
             });
-        })({"ajaxurl":"https:\/\/www.parkrun.org.uk\/wp-admin\/admin-ajax.php","nonce":"9566359bd3","apiNonce":"3052a5cc4b"});
+        })({"ajaxurl":"https:\/\/www.parkrun.org.uk\/wp-admin\/admin-ajax.php","nonce":"55c847a56b","apiNonce":"bc94d271e4","t9nNonce":"ee8e229c5a"});
 </script>
 <link rel='https://api.w.org/' href='https://www.parkrun.org.uk/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.parkrun.org.uk/xmlrpc.php?rsd" />
@@ -122,43 +146,44 @@ img.emoji {
 					<div class="line"></div>
 				</div>
 				<nav id="access" role="navigation">
-					<div class="menu-parkrun_country_menu_2024-05-10a-container"><ul id="menu-parkrun_country_menu_2024-05-10a" class="menu"><li id="menu-item-13383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13383"><a href="https://www.parkrun.org.uk/events/">events</a>
+					<div class="menu-parkrun_country_menu_2024-05-10a-container"><ul id="menu-parkrun_country_menu_2024-05-10a" class="menu"><li id="menu-item-13434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13434"><a href="https://www.parkrun.org.uk/events/">events</a>
 <ul class="sub-menu">
-	<li id="menu-item-13384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13384"><a href="https://www.parkrun.org.uk/events/events/">parkrun events</a></li>
-	<li id="menu-item-13385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13385"><a href="https://www.parkrun.org.uk/events/juniorevents/">junior events</a></li>
-	<li id="menu-item-13386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13386"><a href="https://www.parkrun.org.uk/cancellations/">cancellations</a></li>
-	<li id="menu-item-13387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13387"><a href="https://www.parkrun.org.uk/special-events/">additional parkrun days</a></li>
-	<li id="menu-item-13388" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13388"><a href="https://www.parkrun.org.uk/parkwalk/">parkwalk</a></li>
-	<li id="menu-item-13389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13389"><a href="https://www.parkrun.org.uk/accessibility-inclusion/">accessibility &amp; inclusion</a></li>
+	<li id="menu-item-13435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13435"><a href="https://www.parkrun.org.uk/events/events/">parkrun events</a></li>
+	<li id="menu-item-13436" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13436"><a href="https://www.parkrun.org.uk/events/juniorevents/">junior events</a></li>
+	<li id="menu-item-13437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13437"><a href="https://www.parkrun.org.uk/cancellations/">cancellations</a></li>
+	<li id="menu-item-13438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13438"><a href="https://www.parkrun.org.uk/special-events/">additional parkrun days</a></li>
+	<li id="menu-item-13439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13439"><a href="https://www.parkrun.org.uk/parkwalk/">parkwalk</a></li>
+	<li id="menu-item-13440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13440"><a href="https://www.parkrun.org.uk/accessibility-inclusion/">accessibility &amp; inclusion</a></li>
 </ul>
 </li>
-<li id="menu-item-13390" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13390"><a href="https://blog.parkrun.com/uk/">blog</a></li>
-<li id="menu-item-13391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13391"><a href="https://www.parkrun.org.uk/partners/">partners</a>
+<li id="menu-item-13441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13441"><a href="https://blog.parkrun.com/uk/">blog</a></li>
+<li id="menu-item-13442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13442"><a href="https://www.parkrun.org.uk/partners/">partners</a>
 <ul class="sub-menu">
-	<li id="menu-item-13392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13392"><a href="https://www.parkrun.org.uk/partners/">official partners</a></li>
-	<li id="menu-item-13393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13393"><a href="https://www.parkrun.org.uk/partnership-opportunities/">partnership opportunities</a></li>
-	<li id="menu-item-13394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13394"><a href="https://www.parkrun.org.uk/foundations-trusts/">foundations &amp; trusts</a></li>
+	<li id="menu-item-13443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13443"><a href="https://www.parkrun.org.uk/partners/">official partners</a></li>
+	<li id="menu-item-13444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13444"><a href="https://www.parkrun.org.uk/partnership-opportunities/">partnership opportunities</a></li>
+	<li id="menu-item-13445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13445"><a href="https://www.parkrun.org.uk/corporate-givers/">corporate givers</a></li>
+	<li id="menu-item-13446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13446"><a href="https://www.parkrun.org.uk/foundations-trusts/">foundations &amp; trusts</a></li>
 </ul>
 </li>
-<li id="menu-item-13395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13395"><a href="https://www.parkrun.com/about/support-us/">support us</a>
+<li id="menu-item-13447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13447"><a href="https://www.parkrun.com/about/support-us/">support us</a>
 <ul class="sub-menu">
-	<li id="menu-item-13396" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13396"><a href="https://www.parkrun.com/about/support-us/ways-to-give/">ways to give</a></li>
-	<li id="menu-item-13397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13397"><a href="https://www.parkrun.com/about/support-us/the-difference-we-make/">the difference we make</a></li>
-	<li id="menu-item-13398" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13398"><a href="https://www.parkrun.com/about/support-us/partners-and-sponsorship/">partners and sponsorship</a></li>
-	<li id="menu-item-13399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13399"><a href="https://www.parkrun.com/about/support-us/where-your-money-goes/">where your money goes</a></li>
+	<li id="menu-item-13448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13448"><a href="https://www.parkrun.com/about/support-us/ways-to-give/">ways to give</a></li>
+	<li id="menu-item-13449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13449"><a href="https://www.parkrun.com/about/support-us/the-difference-we-make/">the difference we make</a></li>
+	<li id="menu-item-13450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13450"><a href="https://www.parkrun.com/about/support-us/partners-and-sponsorship/">partners and sponsorship</a></li>
+	<li id="menu-item-13451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13451"><a href="https://www.parkrun.com/about/support-us/where-your-money-goes/">where your money goes</a></li>
 </ul>
 </li>
-<li id="menu-item-13400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13400"><a>results</a>
+<li id="menu-item-13452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13452"><a>results</a>
 <ul class="sub-menu">
-	<li id="menu-item-13401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13401"><a href="https://www.parkrun.org.uk/results/largestclubs/">largest clubs</a></li>
-	<li id="menu-item-13402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13402"><a href="https://www.parkrun.org.uk/results/historicalchart/">historical chart</a></li>
-	<li id="menu-item-13403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13403"><a href="https://www.parkrun.org.uk/results/notparkrun/">(not)parkrun</a></li>
-	<li id="menu-item-13404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13404"><a href="https://www.parkrun.org.uk/results/notparkrunhistory/">(not)parkrun history</a></li>
+	<li id="menu-item-13453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13453"><a href="https://www.parkrun.org.uk/results/largestclubs/">largest clubs</a></li>
+	<li id="menu-item-13454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13454"><a href="https://www.parkrun.org.uk/results/historicalchart/">historical chart</a></li>
+	<li id="menu-item-13455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13455"><a href="https://www.parkrun.org.uk/results/notparkrun/">(not)parkrun</a></li>
+	<li id="menu-item-13456" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13456"><a href="https://www.parkrun.org.uk/results/notparkrunhistory/">(not)parkrun history</a></li>
 </ul>
 </li>
-<li id="menu-item-13405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13405"><a href="https://www.parkrun.org.uk/aboutus/">about us</a></li>
-<li id="menu-item-13406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13406"><a href="https://shop.parkrun.com/">shop</a></li>
-<li id="menu-item-13407" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13407"><a href="https://www.parkrun.org.uk/register/">register</a></li>
+<li id="menu-item-13457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13457"><a href="https://www.parkrun.org.uk/aboutus/">about us</a></li>
+<li id="menu-item-13458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13458"><a href="https://shop.parkrun.com/">shop</a></li>
+<li id="menu-item-13459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13459"><a href="https://www.parkrun.org.uk/register/">register</a></li>
 </ul></div>				</nav>
 			</div>
 		</div>
@@ -173,11 +198,11 @@ img.emoji {
 			<div id="content" role="main">
 
 				
-					<a href='https://www.parkrun.com/app/?utm_medium=banner&utm_source=website&utm_campaign=parkr_exttraDec2025&utm_content=parkrun5kAppBanner'> 
+					<a href='https://www.brooksrunning.com/en_gb?tid=oth:parkrun:LetsRunThere:pm1x:UK:parkrunhomepage '> 
 						<picture class="parkrunadBanner">
-						    <source media='(min-width: 767px)' srcset='https://images.parkrun.com/blogs.dir/3/files/2025/11/UK-5k-app-web-banner-desktop.png'>
-						    	<img src='https://images.parkrun.com/blogs.dir/3/files/2025/11/UK-5k-app-web-banner-mobileside-pannel.png' 
-						    		alt='Download the free parkrun app' 
+						    <source media='(min-width: 767px)' srcset='https://images.parkrun.com/blogs.dir/3/files/2026/03/1100x100_UK-1-1.gif'>
+						    	<img src='https://images.parkrun.com/blogs.dir/3/files/2026/03/767x256_UK-1.gif' 
+						    		alt='Let’s Run There with Brooks' 
 						    		style='width:auto;margin-bottom: 20px;'>
 					    </picture> 
 					</a><?xml version="1.0"?>
@@ -786,32 +811,32 @@ img.emoji {
 
             <div class="flex">
                 <div class="aStat">
-                    Locations: <span class="num">932</span>
+                    Locations: <span class="num">934</span>
                 </div>
                 <div class="aStat">
-                    Finishers: <span class="num">4,276,578</span>
+                    Finishers: <span class="num">4,294,278</span>
                 </div>
                 <div class="aStat">
-                    Finishes: <span class="num">79,327,331</span>
+                    Finishes: <span class="num">79,783,770</span>
                 </div>
                 <div class="aStat">
-                    All-time events: <span class="num">373,771</span>
+                    All-time events: <span class="num">375,573</span>
                 </div>
                 <div class="aStat">
-                    Volunteers: <span class="num">555,818</span>
+                    Volunteers: <span class="num">558,242</span>
                 </div>
                 <div class="aStat">
-                    PBs: <span class="num">11,283,545</span>
+                    PBs: <span class="num">11,346,723</span>
                 </div>
                 <div class="aStat">
-                    Average finish time: <span class="num">00:29:42</span>
+                    Average finish time: <span class="num">00:29:43</span>
                 </div>
                 <div class="aStat">
-                    Groups: <span class="num">9,781</span>
+                    Groups: <span class="num">9,799</span>
                 </div>
             </div>                      
             <div class="lastupdated">
-                Stats last updated: Sat 26 Sep 2026 09:01:16 UTC
+                Stats last updated: Sun 04 Oct 2026 00:57:44 UTC
             </div>
         </div>
     </div>
@@ -918,7 +943,7 @@ window.zESettings={webWidget:{color:{theme:"#ffa300"}}};
 </body>
 </html>
 
-<!-- Dynamic page generated in 0.711 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-09-26 22:05:43 -->
+<!-- Dynamic page generated in 0.487 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-10-04 02:05:51 -->
 
 <!-- super cache -->
