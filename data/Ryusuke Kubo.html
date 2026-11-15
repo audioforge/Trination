@@ -49,75 +49,6 @@ img.emoji {
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.28.0'></script>
-<script type='text/javascript' src='https://www.parkrun.caempty.js?ver=4.9.35'></script>
-<script type='text/javascript'>
-(function(cfg){
-            // 9da0a2ee
-            document.addEventListener("DOMContentLoaded", function() {
-                var items = document.getElementsByClassName("parkrun-flip-status");
-                Array.prototype.forEach.call(items, function(item) {
-                    var f = item.querySelector(":scope > span").getAttribute("data-id");
-                    item.querySelector(":scope > a").addEventListener("click", function(e) {
-                        e.preventDefault();
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_flip_test&feat=" + f + "&_ajax_nonce=" + cfg.nonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                var a = item.querySelector(":scope > a");
-                                // a.querySelector(".parkrun-toggle-label").textContent = "TEST=" + d.data.mode.toUpperCase();
-                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.mode === "active");
-                                window.location.reload();
-                            }
-                        });
-                    });
-                });
-
-                var apiItem = document.getElementById("wp-admin-bar-parkrun-backend-src");
-                if (apiItem) {
-                    apiItem.querySelector("a").addEventListener("click", function(e) {
-                        e.preventDefault();
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_flip_backend_src&_ajax_nonce=" + cfg.apiNonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                var a = apiItem.querySelector("a");
-                                // a.querySelector(".parkrun-toggle-label").textContent = "API=" + d.data.source.toUpperCase();
-                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.source === "staging");
-                                window.location.reload();
-                            }
-                        });
-                    });
-                }
-
-                var clearBtn = document.getElementById("parkrun-clear-t9n");
-                if (clearBtn) {
-                    clearBtn.addEventListener("click", function() {
-                        var phrase = document.getElementById("parkrun-t9n-phrase").value;
-                        var language = document.getElementById("parkrun-t9n-language").value;
-                        var result = document.getElementById("parkrun-clear-t9n-result");
-                        result.textContent = "Clearing…";
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_clear_t9n&phrase=" + encodeURIComponent(phrase) +
-                                "&language=" + encodeURIComponent(language) +
-                                "&_ajax_nonce=" + cfg.t9nNonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                result.textContent = "Deleted " + d.data.deleted + " key(s) matching " + d.data.pattern;
-                            } else {
-                                result.textContent = "Error: " + (d.data || "failed to clear translations");
-                            }
-                        });
-                    });
-                }
-            });
-        })({"ajaxurl":"https:\/\/www.parkrun.ca\/wp-admin\/admin-ajax.php","nonce":"0dbe38e7bf","apiNonce":"b7464ecdb8","t9nNonce":"7173f67fef"});
-</script>
 <link rel='https://api.w.org/' href='https://www.parkrun.ca/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.parkrun.ca/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://static.parkrun.com/wp-includes/wlwmanifest.xml" /> 
@@ -197,18 +128,20 @@ img.emoji {
 					Member of the 300 Club
 			</a>
             <h3>
-                        352 parkruns total
+                        353 parkruns total
                     </h3><p><a href="/parkrunner/3681626">
                             View summary stats for this parkrunner
                         </a><br/>
                         Most recent age category was VM50-54
                     </p><div><table id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                                 Summary Stats for All  Locations
-                            </caption><thead><tr><th/><th>Fastest</th><th>Average <br />(mean)</th><th>Slowest</th></tr></thead><tbody><tr><td>Time</td><td>18:25</td><td>20:09</td><td>40:14</td></tr><tr><td>Age Grading</td><td>77.42%</td><td>71.60%</td><td>34.96%</td></tr><tr><td>Overall Position</td><td>1</td><td>7.05</td><td>77</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
+                            </caption><thead><tr><th/><th>Fastest</th><th>Average <br />(mean)</th><th>Slowest</th></tr></thead><tbody><tr><td>Time</td><td>18:25</td><td>20:10</td><td>40:14</td></tr><tr><td>Age Grading</td><td>77.42%</td><td>71.59%</td><td>34.96%</td></tr><tr><td>Overall Position</td><td>1</td><td>7.06</td><td>77</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                                 Best  Overall Annual Achievements
                             </caption><thead><tr><th>Year</th><th>Best Time</th><th>Best Age Grading</th></tr></thead><tbody><tr><td>2017</td><td>00:19:14</td><td>72.01%</td></tr><tr><td>2018</td><td>00:18:25</td><td>75.84%</td></tr><tr><td>2019</td><td>00:18:29</td><td>75.56%</td></tr><tr><td>2020</td><td>00:18:54</td><td>74.43%</td></tr><tr><td>2021</td><td>00:18:27</td><td>77.42%</td></tr><tr><td>2022</td><td>00:18:37</td><td>77.35%</td></tr><tr><td>2023</td><td>00:18:51</td><td>76.74%</td></tr><tr><td>2024</td><td>00:19:13</td><td>75.62%</td></tr><tr><td>2025</td><td>00:18:59</td><td>77.36%</td></tr><tr><td>2026</td><td>00:19:30</td><td>75.64%</td></tr></tbody></table></div><br/><div><table class="sortable" id="results" cellspacing="4" cellpadding="0" align="center" border="0"><caption>
                             All  Results
-                        </caption><thead><tr><th>Event</th><th>Run Date</th><th>Run Number</th><th>Pos</th><th>Time</th><th>Age<br/>Grade</th><th>PB?</th></tr></thead><tbody><tr><td><a href="https://www.parkrun.ca/richmondolympic/results/">Richmond Olympic</a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/444/"><span class="format-date">07/11/2026</span></a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/444/">444</a></td><td>11</td><td>20:28</td><td>72.64%</td><td>
+                        </caption><thead><tr><th>Event</th><th>Run Date</th><th>Run Number</th><th>Pos</th><th>Time</th><th>Age<br/>Grade</th><th>PB?</th></tr></thead><tbody><tr><td><a href="https://www.parkrun.ca/richmondolympic/results/">Richmond Olympic</a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/445/"><span class="format-date">14/11/2026</span></a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/445/">445</a></td><td>11</td><td>21:48</td><td>68.20%</td><td>
+                                     
+                                    </td></tr><tr><td><a href="https://www.parkrun.ca/richmondolympic/results/">Richmond Olympic</a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/444/"><span class="format-date">07/11/2026</span></a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/444/">444</a></td><td>11</td><td>20:28</td><td>72.64%</td><td>
                                      
                                     </td></tr><tr><td><a href="https://www.parkrun.ca/richmondolympic/results/">Richmond Olympic</a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/443/"><span class="format-date">31/10/2026</span></a></td><td><a href="https://www.parkrun.ca/richmondolympic/results/443/">443</a></td><td>27</td><td>22:17</td><td>66.72%</td><td>
                                      
@@ -962,29 +895,29 @@ img.emoji {
                     Locations: <span class="num">68</span>
                 </div>
                 <div class="aStat">
-                    Finishers: <span class="num">100,304</span>
+                    Finishers: <span class="num">101,082</span>
                 </div>
                 <div class="aStat">
-                    Finishes: <span class="num">653,964</span>
+                    Finishes: <span class="num">661,950</span>
                 </div>
                 <div class="aStat">
-                    All-time events: <span class="num">14,367</span>
+                    All-time events: <span class="num">14,496</span>
                 </div>
                 <div class="aStat">
-                    Volunteers: <span class="num">11,732</span>
+                    Volunteers: <span class="num">11,829</span>
                 </div>
                 <div class="aStat">
-                    PBs: <span class="num">96,546</span>
+                    PBs: <span class="num">97,630</span>
                 </div>
                 <div class="aStat">
                     Average finish time: <span class="num">00:33:07</span>
                 </div>
                 <div class="aStat">
-                    Groups: <span class="num">2,781</span>
+                    Groups: <span class="num">2,788</span>
                 </div>
             </div>                      
             <div class="lastupdated">
-                Stats last updated: Sat 07 Nov 2026 09:36:20 AM UTC
+                Stats last updated: Sun 15 Nov 2026 01:36:14 AM UTC
             </div>
         </div>
     </div>
@@ -1081,7 +1014,7 @@ window.zESettings={webWidget:{color:{theme:"#ffa300"}}};
 </body>
 </html>
 
-<!-- Dynamic page generated in 0.597 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-11-07 21:28:15 -->
+<!-- Dynamic page generated in 0.980 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-11-15 05:32:55 -->
 
 <!-- super cache -->

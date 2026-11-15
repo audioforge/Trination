@@ -49,75 +49,6 @@ img.emoji {
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://static.parkrun.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js?ver=1.28.0'></script>
-<script type='text/javascript' src='https://www.parkrun.org.ukempty.js?ver=4.9.35'></script>
-<script type='text/javascript'>
-(function(cfg){
-            // 9da0a2ee
-            document.addEventListener("DOMContentLoaded", function() {
-                var items = document.getElementsByClassName("parkrun-flip-status");
-                Array.prototype.forEach.call(items, function(item) {
-                    var f = item.querySelector(":scope > span").getAttribute("data-id");
-                    item.querySelector(":scope > a").addEventListener("click", function(e) {
-                        e.preventDefault();
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_flip_test&feat=" + f + "&_ajax_nonce=" + cfg.nonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                var a = item.querySelector(":scope > a");
-                                // a.querySelector(".parkrun-toggle-label").textContent = "TEST=" + d.data.mode.toUpperCase();
-                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.mode === "active");
-                                window.location.reload();
-                            }
-                        });
-                    });
-                });
-
-                var apiItem = document.getElementById("wp-admin-bar-parkrun-backend-src");
-                if (apiItem) {
-                    apiItem.querySelector("a").addEventListener("click", function(e) {
-                        e.preventDefault();
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_flip_backend_src&_ajax_nonce=" + cfg.apiNonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                var a = apiItem.querySelector("a");
-                                // a.querySelector(".parkrun-toggle-label").textContent = "API=" + d.data.source.toUpperCase();
-                                a.querySelector(".parkrun-toggle").classList.toggle("is-on", d.data.source === "staging");
-                                window.location.reload();
-                            }
-                        });
-                    });
-                }
-
-                var clearBtn = document.getElementById("parkrun-clear-t9n");
-                if (clearBtn) {
-                    clearBtn.addEventListener("click", function() {
-                        var phrase = document.getElementById("parkrun-t9n-phrase").value;
-                        var language = document.getElementById("parkrun-t9n-language").value;
-                        var result = document.getElementById("parkrun-clear-t9n-result");
-                        result.textContent = "Clearing…";
-                        fetch(cfg.ajaxurl, {
-                            method: "POST",
-                            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-                            body: "action=parkrun_clear_t9n&phrase=" + encodeURIComponent(phrase) +
-                                "&language=" + encodeURIComponent(language) +
-                                "&_ajax_nonce=" + cfg.t9nNonce
-                        }).then(function(r){ return r.json(); }).then(function(d){
-                            if (d.success) {
-                                result.textContent = "Deleted " + d.data.deleted + " key(s) matching " + d.data.pattern;
-                            } else {
-                                result.textContent = "Error: " + (d.data || "failed to clear translations");
-                            }
-                        });
-                    });
-                }
-            });
-        })({"ajaxurl":"https:\/\/www.parkrun.org.uk\/wp-admin\/admin-ajax.php","nonce":"0dbe38e7bf","apiNonce":"b7464ecdb8","t9nNonce":"7173f67fef"});
-</script>
 <link rel='https://api.w.org/' href='https://www.parkrun.org.uk/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.parkrun.org.uk/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://static.parkrun.com/wp-includes/wlwmanifest.xml" /> 
@@ -198,11 +129,11 @@ img.emoji {
 			<div id="content" role="main">
 
 				
-					<a href='https://www.brooksrunning.com/en_gb/glycerin/?tid=oth:parkrun:GlycerinMax3Launch:pm1x:UK:parkrunhomepage'> 
+					<a href='https://www.parkrun.com/app/?utm_medium=banner&utm_source=website&utm_campaign=parkr_exttraDec2025&utm_content=parkrun5kAppBanner'> 
 						<picture class="parkrunadBanner">
-						    <source media='(min-width: 767px)' srcset='https://images.parkrun.com/blogs.dir/3/files/2026/10/Brooks-Banner-1100x256-GlycMax-28.10.26.jpg'>
-						    	<img src='https://images.parkrun.com/blogs.dir/3/files/2026/10/Brooks-Banner-767x256-GlycMax-28.10.26.jpg' 
-						    		alt='Maximise your next parkrun with Glycerin Max' 
+						    <source media='(min-width: 767px)' srcset='https://images.parkrun.com/blogs.dir/3/files/2025/11/UK-5k-app-web-banner-desktop.png'>
+						    	<img src='https://images.parkrun.com/blogs.dir/3/files/2025/11/UK-5k-app-web-banner-mobileside-pannel.png' 
+						    		alt='Download the free parkrun app' 
 						    		style='width:auto;margin-bottom: 20px;'>
 					    </picture> 
 					</a><?xml version="1.0"?>
@@ -815,32 +746,32 @@ img.emoji {
 
             <div class="flex">
                 <div class="aStat">
-                    Locations: <span class="num">937</span>
+                    Locations: <span class="num">938</span>
                 </div>
                 <div class="aStat">
-                    Finishers: <span class="num">4,324,206</span>
+                    Finishers: <span class="num">4,338,203</span>
                 </div>
                 <div class="aStat">
-                    Finishes: <span class="num">80,659,933</span>
+                    Finishes: <span class="num">81,102,003</span>
                 </div>
                 <div class="aStat">
-                    All-time events: <span class="num">379,154</span>
+                    All-time events: <span class="num">380,930</span>
                 </div>
                 <div class="aStat">
-                    Volunteers: <span class="num">562,439</span>
+                    Volunteers: <span class="num">564,459</span>
                 </div>
                 <div class="aStat">
-                    PBs: <span class="num">11,458,224</span>
+                    PBs: <span class="num">11,512,460</span>
                 </div>
                 <div class="aStat">
-                    Average finish time: <span class="num">00:29:43</span>
+                    Average finish time: <span class="num">00:29:44</span>
                 </div>
                 <div class="aStat">
-                    Groups: <span class="num">9,837</span>
+                    Groups: <span class="num">9,850</span>
                 </div>
             </div>                      
             <div class="lastupdated">
-                Stats last updated: Sat 07 Nov 2026 10:01:36 UTC
+                Stats last updated: Sun 15 Nov 2026 01:57:42 UTC
             </div>
         </div>
     </div>
@@ -947,7 +878,7 @@ window.zESettings={webWidget:{color:{theme:"#ffa300"}}};
 </body>
 </html>
 
-<!-- Dynamic page generated in 0.674 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2026-11-07 21:29:14 -->
+<!-- Dynamic page generated in 0.679 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-11-15 05:34:39 -->
 
 <!-- super cache -->
